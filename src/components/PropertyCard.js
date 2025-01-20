@@ -63,8 +63,8 @@ const PropertyCard = ({ property }) => {
           className="absolute left-2 top-1/2 transform -translate-y-1/2 p-2"
         >
           <Image
-            src="/img/Left.png"
-            alt="Left"
+            src="/img/Right.png"
+            alt="Right"
             width={32}
             height={32}
             className="object-contain"
@@ -75,13 +75,13 @@ const PropertyCard = ({ property }) => {
           onClick={nextImage}
           className="absolute right-2 top-1/2 transform -translate-y-1/2 p-2"
         >
-          <Image
-            src="/img/Right.png"
-            alt="Right"
+          {/* <Image
+            src="/img/Left.png"
+            alt="Left"
             width={32}
             height={32}
             className="object-contain"
-          />
+          /> */}
         </button>
 
         {/* Card Content */}
