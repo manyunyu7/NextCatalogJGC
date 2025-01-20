@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import Gallery from "@/components/Gallery";
 import HeaderWeb from "@/components/Header";
 import PropertyCard from "@/components/PropertyCard";
+import SearchFilterBar from "@/components/SearchSection";
 
 
 export default function Home() {
@@ -17,7 +18,7 @@ export default function Home() {
         <Slider />
       </div>
       <ContentSection />
-
+      <SearchFilterBar></SearchFilterBar>
       <Gallery></Gallery>
       {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {properties.map((property, index) => (
